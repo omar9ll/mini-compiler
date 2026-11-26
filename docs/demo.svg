@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="783" height="444" viewBox="0 0 783 444">
+<rect width="783" height="444" rx="10" fill="#0d1117"/>
+<rect width="783" height="30" rx="10" fill="#161b22"/><rect y="20" width="783" height="10" fill="#161b22"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f57"/><circle cx="38" cy="15" r="6" fill="#febc2e"/><circle cx="58" cy="15" r="6" fill="#28c840"/>
+<text x="391.5" y="20" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" text-anchor="middle">minic — mini compiler</text>
+<text x="20" y="58" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> ./minic examples/folding.mc</tspan></text>
+<text x="20" y="78" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">604800</text>
+<text x="20" y="98" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">30</text>
+<text x="20" y="118" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> ./minic --no-opt --stats examples/folding.mc 2&gt;&amp;1 | tail -1</tspan></text>
+<text x="20" y="138" fill="#d2a8ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">[stats] instructions emitted: 27, executed: 27, folded: 0, propagated: 0, simplified: 0</text>
+<text x="20" y="158" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> ./minic --stats examples/folding.mc 2&gt;&amp;1 | tail -1</tspan></text>
+<text x="20" y="178" fill="#d2a8ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">[stats] instructions emitted: 11, executed: 11, folded: 8, propagated: 3, simplified: 0</text>
+<text x="20" y="198" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve"><tspan fill="#7ee787">$</tspan><tspan fill="#e6edf3"> ./minic --dump examples/folding.mc</tspan></text>
+<text x="20" y="218" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0000  CONST  86400</text>
+<text x="20" y="238" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0001  STORE  seconds_per_day</text>
+<text x="20" y="258" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0002  CONST  7</text>
+<text x="20" y="278" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0003  STORE  days</text>
+<text x="20" y="298" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0004  CONST  604800</text>
+<text x="20" y="318" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0005  STORE  week</text>
+<text x="20" y="338" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0006  CONST  604800</text>
+<text x="20" y="358" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0007  PRINT </text>
+<text x="20" y="378" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0008  CONST  30</text>
+<text x="20" y="398" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0009  PRINT </text>
+<text x="20" y="418" fill="#e6edf3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">0010  HALT  </text>
+</svg>
